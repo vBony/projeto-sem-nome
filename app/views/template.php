@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Document</title>
-    <link rel="stylesheet" href="<?=BASE_URL?>app/assets/css/template.css">
-    <link rel="stylesheet" href="<?=BASE_URL?>app/assets/css/<?=$css?>">
-    <script src="<?=BASE_URL?>app/assets/js/jquery.js"></script>
-    <script src="<?=BASE_URL?>app/assets/js/template.js"></script>
+    <link rel="stylesheet" href="<?=$_ENV['BASE_URL']?>app/assets/css/template.css">
+    <link rel="stylesheet" href="<?=$_ENV['BASE_URL']?>app/assets/css/<?=$css?>">
+    <script src="<?=$_ENV['BASE_URL']?>app/assets/js/jquery.js"></script>
+    <script src="<?=$_ENV['BASE_URL']?>app/assets/js/template.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
-    <link href="<?=BASE_URL?>/app/assets/libraries/bootstrap.css" rel="stylesheet">
-    <script src="<?=BASE_URL?>app/assets/libraries/bootstrap.js"></script>
+    <link href="<?=$_ENV['BASE_URL']?>/app/assets/libraries/bootstrap.css" rel="stylesheet">
+    <link href="<?=$_ENV['BASE_URL']?>/app/assets/css/homolog-header.css" rel="stylesheet">
+    <script src="<?=$_ENV['BASE_URL']?>app/assets/libraries/bootstrap.js"></script>
 </head>
 <body>
     <header id="header_inv">

@@ -1,17 +1,14 @@
 <?php
-require 'enviroment.php';
+require 'vendor/autoload.php';
 
-if(ENVIROMENT == 'development'){
-    define("BASE_URL", "http://localhost/projeto-sem-nome-web/");
-    $config['dbname'] = "projeto_sem_nome";
-    $config['host'] = "localhost";
-    $config['dbuser'] = "root";
-    $config['dbpass'] = "";
-}else{
-    $config['dbname'] = "";
-    $config['host'] = "";
-    $config['dbuser'] = "";
-    $config['dbpass'] = "";
+use Symfony\Component\Dotenv\Dotenv;
+
+$dotenv = new Dotenv();
+$dotenv->loadEnv(__DIR__.'/.env');
+
+if($_ENV['ENVIROMENT'] == 'development'){
+    $headerHomolog = file_get_contents($_ENV['BASE_URL'] . 'app/views/homolog-header.php');
+    echo $headerHomolog;
 }
 
 global $db;
