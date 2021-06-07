@@ -1,4 +1,4 @@
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /projeto-sem-nome-web/index.php?url=$1 [QSA,L]
+RewriteRule ^(.*)$ ${BASE_URL}/index.php?url=$1 [QSA,L]

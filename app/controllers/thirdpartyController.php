@@ -10,7 +10,7 @@ class thirdpartyController extends controllerHelper{
             'default_graph_version' => 'v3.2',
         ]);
 
-        $redirect = BASE_URL.'thirdparty/facebook';
+        $redirect = $_ENV['BASE_URL'].'thirdparty/facebook';
 
         $helper = $fb->getRedirectLoginHelper();
 
@@ -58,14 +58,14 @@ class thirdpartyController extends controllerHelper{
             //Verifica se é o primeiro acesso do usuário, se caso for, ir para pagina para continuar o cadastro
             if($userData['first_access'] == 1){
                 $_SESSION['ID_user'] = $userData['id'];
-                header('Location:'.BASE_URL.'user/first_access');
+                header('Location:'.$_ENV['BASE_URL'].'user/first_access');
             }else{
-                header('Location: '.BASE_URL);
+                header('Location: '.$_ENV['BASE_URL']);
             }
 
         }else{
            $DBuser->facebookRegister($FBid, $FBemail, $FBname);
-           header('Location:'.BASE_URL.'user/first_access');
+           header('Location:'.$_ENV['BASE_URL'].'user/first_access');
         }
 
         // //Listagem de dados
