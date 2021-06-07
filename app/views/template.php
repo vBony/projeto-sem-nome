@@ -9,6 +9,8 @@
     <script src="<?=BASE_URL?>app/assets/js/jquery.js"></script>
     <script src="<?=BASE_URL?>app/assets/js/template.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link href="<?=BASE_URL?>/app/assets/libraries/bootstrap.css" rel="stylesheet">
+    <script src="<?=BASE_URL?>app/assets/libraries/bootstrap.js"></script>
 </head>
 <body>
     <header id="header_inv">
