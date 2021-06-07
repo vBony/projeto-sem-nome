@@ -1,0 +1,13 @@
+{
+    "name": "conta/projeto-sem-nome-web",
+    "type": "library",
+    "authors": [
+        {
+            "name": "VInicius Ferreira",
+            "email": "contato.vinicius-af@outlook.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.3"
+    }
+}
