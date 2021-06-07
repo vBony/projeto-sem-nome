@@ -1,2 +1,2 @@
-# projeto-sem-nome
-Projeto em fase de planejamento, ainda sem um nome específico
+# Quero emprego
+Projeto para anunciar vagas de empregos, ainda em fase de desenvolvimento.
