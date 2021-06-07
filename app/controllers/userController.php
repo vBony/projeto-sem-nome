@@ -1,7 +1,8 @@
 <?php
 class userController extends controllerHelper{
-    public function index(){
+    public function profile($id){
         $data = array();
+        $data['id'] = $id;
 
         $this->loadTemplate('user-profile', $data);
     }

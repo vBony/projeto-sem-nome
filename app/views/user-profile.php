@@ -12,5 +12,6 @@
 </head>
 <body>
     <h1>PERFIL DO USUARIO</h1>
+    <h4>id usuário: <?=$id?></h4>
 </body>
 </html>
