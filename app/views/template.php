@@ -15,8 +15,11 @@
 </head>
 <body>
     <header id="header_inv">
-       <p>menu do site</p>
-       <hr>
+        <div id="box-header">
+            <div id="logo-area" onclick="window.location.href = '  <?= $_ENV['BASE_URL'] ?> ' ">
+                QUERO EMPREGO
+            </div>
+        </div>
     </header>
 
     <?php $this->loadViewInTemplate($viewName, $viewData)?>
