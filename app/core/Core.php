@@ -1,4 +1,5 @@
 <?php
+
 class Core{
     public function run(){
         $url = '/';
@@ -35,7 +36,7 @@ class Core{
         }
 
         if(!file_exists('app/controllers/'.$currentController.'.php') || !method_exists($currentController, $currentAction)){
-            $currentController = 'notfoundController';
+            $currentController = 'notFoundController';
             $currentAction = 'index';
         }
 
