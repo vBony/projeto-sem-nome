@@ -1,0 +1,9 @@
+.container-login{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#login-box{
+    width: 500px;
+}
