@@ -33,6 +33,7 @@
                         </span>
 
                         <select name="estado" id="select-estado">
+
                             <option value="">Todo o Brasil</option>
                             <option value="df">Distrito Federal</option>
                             <option value="go">Goiás</option>
@@ -47,7 +48,40 @@
 
             </div>
 
+            <div id="box-2-subheader">
 
+                <div id="title-area-b2">
+                    
+                    <div id="num-vagas-b2">100</div>
+                    <div id="text-title-b2">vagas de emprego</div>
+                    
+                </div>
+
+                <div id="text-area-b2">
+                    Não perca tempo, envie seu currículo e candita-se gratuitamente! <br> 
+                    Caso não possua um ainda, crie em nossa plataforma interativa de forma rápida e sem pagar nada.
+                </div>
+
+                <div id="button-area-b2">
+
+                    <div id="button-b2" class="subheader-buttons">Criar currículo</div>
+                        
+                </div>
+
+            </div>
+
+        </div>
+        
+        <div id="box-buttons">
+
+            <div class="bb-area">
+                <div id="bb-1" class="subheader-buttons">Buscar vagas</div>
+            </div>
+
+            <div class="bb-area">
+                <div id="bb-2" class="subheader-buttons">Criar currículo</div>
+            </div>
+            
         </div>
 
     </div>
