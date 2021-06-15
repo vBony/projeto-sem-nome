@@ -22,6 +22,8 @@ textearea:focus, input:focus, select:focus {
 .container-inv {
     width: 80%;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 #box-1-subheader {
@@ -80,11 +82,11 @@ textearea:focus, input:focus, select:focus {
     cursor: pointer;
 }
 
-#button-box-1 {
+.subheader-buttons {
     background-color: #f2687a;
     text-align: center;
     color: white;
-    margin: 20px auto 20px auto;
+    margin: 20px auto;
     width: 30%;
     padding: 10px 0px;
     border-radius: 20px;
@@ -92,8 +94,58 @@ textearea:focus, input:focus, select:focus {
     transition: 0.2s;
 }
 
-#button-box-1:hover {
+.subheader-buttons:hover {
     background-color: #d15666;
 }
 
+#box-2-subheader {
+    width: 45%;
+}
 
+#title-area-b2 {
+    width:100%;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+#num-vagas-b2 {
+    margin-right: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #f2687a;
+    
+}
+
+#num-vagas-b2::before {
+    content: "+";
+}
+
+#text-title-b2 {
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+
+}
+
+#text-area-b2 {
+    color: white;
+    margin: 0px auto;
+    width: 70%;
+
+}
+
+#button-box-1, #button-b2 {
+    display: none;
+}
+
+#box-buttons {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bb-area {
+    width: 45%;
+}
