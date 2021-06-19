@@ -1,14 +1,9 @@
 {
-    "_readme": [
-        "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
-        "This file is @generated automatically"
-    ],
-    "content-hash": "b556b1e5934cdff938ebf08f0ba70fc9",
     "packages": [
         {
             "name": "symfony/deprecation-contracts",
             "version": "v2.4.0",
+            "version_normalized": "2.4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
@@ -23,6 +18,7 @@
             "require": {
                 "php": ">=7.1"
             },
+            "time": "2021-03-23T23:28:01+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -33,6 +29,7 @@
                     "url": "https://github.com/symfony/contracts"
                 }
             },
+            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "function.php"
@@ -71,11 +68,12 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-23T23:28:01+00:00"
+            "install-path": "../symfony/deprecation-contracts"
         },
         {
             "name": "symfony/dotenv",
             "version": "v5.3.0",
+            "version_normalized": "5.3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dotenv.git",
@@ -94,7 +92,9 @@
             "require-dev": {
                 "symfony/process": "^4.4|^5.0"
             },
+            "time": "2021-05-26T12:52:38+00:00",
             "type": "library",
+            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Symfony\\Component\\Dotenv\\": ""
@@ -141,16 +141,9 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-26T12:52:38+00:00"
+            "install-path": "../symfony/dotenv"
         }
     ],
-    "packages-dev": [],
-    "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
-    "prefer-stable": false,
-    "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "dev": true,
+    "dev-package-names": []
 }
