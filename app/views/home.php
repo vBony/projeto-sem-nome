@@ -32,7 +32,7 @@
                             <i class="fas fa-map-marker-alt"></i>
                         </span>
 
-                        <select name="estado" id="select-estado">
+                        <select name="estado" class="form-select" id="select-estado">
 
                             <option value="">Todo o Brasil</option>
                             <option value="df">Distrito Federal</option>
@@ -58,7 +58,7 @@
                 </div>
 
                 <div id="text-area-b2">
-                    Não perca tempo, envie seu currículo e candita-se gratuitamente! <br> 
+                    Não perca tempo, envie seu currículo e candita-se gratuitamente!<br>
                     Caso não possua um ainda, crie em nossa plataforma interativa de forma rápida e sem pagar nada.
                 </div>
 

@@ -57,24 +57,24 @@ textearea:focus, input:focus, select:focus {
 }
 
 #cargo-area-box-1 {
-    width: 50%;
-    margin: 0px !important;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 #area-search {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 #estado-area-box-1 {
-    width: 45%;
-    margin: 0px !important;
+    width: 100%;
     cursor: pointer;
+    margin: auto;
 
 }
 
 #select-estado {
-    width: 75%;
+    width: 50%;
     padding: 10px 0px 10px 0px;
     border: none;
     border-top-right-radius: 20px;
@@ -148,4 +148,85 @@ textearea:focus, input:focus, select:focus {
 
 .bb-area {
     width: 45%;
+}
+
+@media only screen and (max-width:1465px) {
+    #text-area-b2 {
+        margin: none;
+        width: 100%;
+    }
+    
+    #title-area-b2 {
+        justify-content: flex-start;
+    }
+}
+
+@media only screen and (max-width: 1265px) {
+    #num-vagas-b2, #text-title-b2, #title-box-1 {
+        font-size: 30px;
+    }
+
+    #title-area-b2 {
+        justify-content: flex-start;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .subheader-buttons {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    #num-vagas-b2, #text-title-b2, #title-box-1 {
+        font-size: 20px;
+    }
+
+    #text-area-b2 {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .container-inv {
+        flex-direction: column;
+    }
+
+    #box-buttons {
+        display: none;
+    }
+
+    #button-box-1 {
+        display: block;
+    }
+
+    #button-b2 {
+        display: block;
+    }
+
+    #box-2-subheader {
+        width: 100%;
+    }
+
+    #box-1-subheader {
+        width: 100%;
+    }
+
+    #num-vagas-b2, #text-title-b2, #title-box-1 {
+        font-size: 30px;
+    }
+
+    #text-area-b2 {
+        font-size: 16px;
+    }
+
+    #box-2-subheader {
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 587px){
+    .container-inv {
+        width: 95%;
+    }
 }
