@@ -5,6 +5,7 @@ class homeController extends controllerHelper{
 
         $data['css'] = 'home.css';
         $data['js'] = 'home.js';
+        $data['title'] = "Quero emprego";
         
         $this->loadTemplate('home', $data);
     }

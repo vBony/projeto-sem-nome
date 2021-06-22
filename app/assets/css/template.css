@@ -79,6 +79,21 @@
     color: white;
 }
 
+#img-logo > img{
+    height: 50px;
+}
+
+#txt-logo{
+    color: white;
+    margin-left: 15px !important;
+}
+
+#txt-logo > span{
+    color: #f2687a;
+}
+
+
+
 @media (max-width: 587px) {
     
     #box-header {
@@ -99,5 +114,11 @@
         padding: 5px 15px;
         font-size: 12px;
         background-color: #f2687a;
+    }
+}
+
+@media (max-width: 616px){
+    #box-header {
+        width: 95%;
     }
 }
