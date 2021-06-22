@@ -84,5 +84,103 @@
         </div>
 
     </div>
+
+    <div id="about-site">
+        <div class="about-site-inv">
+            <div id="title-about-area">
+                <h4>Conheça a <span>Quero Emprego</span></h4>
+            </div>
+
+            <div id="carroussel-about-area">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="carousel-caption d-none d-md-block c-area row">
+                                <div class="c-box1 col-lg-6">
+                                    <div>
+                                        <h4>1. Lorem Ipsum is simply dummy</h4>
+                                    </div>
+
+                                    <div class="c-text">
+                                        Lorem Ipsum is simply dummy text of 
+                                        the printing and typesetting industry. 
+                                        Lorem Ipsum has been the industry's 
+                                        standard dummy text ever since the 1500s, 
+                                        when an unknown printer took a galley of 
+                                        type and scrambled it to make a type specimen book.
+                                    </div>
+
+                                    <div class="btn-area">
+                                        <button class="btn btn-success mt-3 btnzin">Acessar</button>
+                                    </div>
+                                </div>
+
+                                <div class="c-box2 col-lg-6">
+                                    <img src="<?=$_ENV['BASE_URL'].'app/assets/imgs/c-img-1.png'?>" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-caption d-none d-md-block c-area row">
+                                <div class="c-box1 col-lg-6">
+                                    <div>
+                                        <h4>1. Lorem Ipsum is simply dummy</h4>
+                                    </div>
+
+                                    <div class="c-text">
+                                        Lorem Ipsum is simply dummy text of 
+                                        the printing and typesetting industry. 
+                                        Lorem Ipsum has been the industry's 
+                                        standard dummy text ever since the 1500s, 
+                                        when an unknown printer took a galley of 
+                                        type and scrambled it to make a type specimen book.
+                                    </div>
+                                </div>
+
+                                <div class="c-box2 col-lg-6">
+                                    <img src="<?=$_ENV['BASE_URL'].'app/assets/imgs/c-img-1.png'?>" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-caption d-none d-md-block c-area row">
+                                <div class="c-box1 col-lg-6">
+                                    <div>
+                                        <h4>1. Lorem Ipsum is simply dummy</h4>
+                                    </div>
+
+                                    <div class="c-text">
+                                        Lorem Ipsum is simply dummy text of 
+                                        the printing and typesetting industry. 
+                                        Lorem Ipsum has been the industry's 
+                                        standard dummy text ever since the 1500s, 
+                                        when an unknown printer took a galley of 
+                                        type and scrambled it to make a type specimen book.
+                                    </div>
+                                </div>
+
+                                <div class="c-box2 col-lg-6">
+                                    <img src="<?=$_ENV['BASE_URL'].'app/assets/imgs/c-img-1.png'?>" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

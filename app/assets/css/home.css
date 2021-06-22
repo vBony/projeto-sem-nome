@@ -19,11 +19,22 @@ textearea:focus, input:focus, select:focus {
     padding: 20px 0px;
 }
 
+#about-size{
+    width: 100%;
+    background-color: #F7FAFF;
+}
+
 .container-inv {
     width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-between;
+}
+
+.about-site-inv{
+    width: 80%;
+    margin: auto;
+    /* display: flex; */
 }
 
 #box-1-subheader {
@@ -150,6 +161,68 @@ textearea:focus, input:focus, select:focus {
     width: 45%;
 }
 
+#title-about-area > h4{
+    text-align: center;
+    color: #31343B;
+    margin: 20px 0px;
+}
+
+#title-about-area > h4 > span{
+    color: #F2687A;
+}
+
+.carousel-control-prev-icon{
+    background-image: url(../imgs/arrow-left.png);
+}
+
+.carousel-control-next-icon{
+    background-image: url(../imgs/arrow-right.png);
+}
+
+.carousel-indicators > button{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100%;
+    background-color: #d15666 !important;
+}
+
+.carousel-inner{
+    display: flex;
+}
+
+.carousel-item{
+    height: 500px;
+}
+
+.c-area{
+    display: flex !important;
+    flex-direction: row !important;
+    height: 100% !important;
+    justify-content: space-between !important;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.c-box1{
+    text-align: start;
+}
+
+.c-text{
+    font-size: 13px;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display:block;
+}
+
+.btn-area{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 @media only screen and (max-width:1465px) {
     #text-area-b2 {
         margin: none;
@@ -227,6 +300,10 @@ textearea:focus, input:focus, select:focus {
 
 @media only screen and (max-width: 587px){
     .container-inv {
+        width: 95%;
+    }
+
+    .about-site-inv{
         width: 95%;
     }
 }
