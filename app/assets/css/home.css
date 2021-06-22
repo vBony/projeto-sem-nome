@@ -191,9 +191,36 @@ textearea:focus, input:focus, select:focus {
 }
 
 .carousel-item{
-    /* width: 80%; */
-    height: 400px;
-    /* margin: auto; */
+    height: 500px;
+}
+
+.c-area{
+    display: flex !important;
+    flex-direction: row !important;
+    height: 100% !important;
+    justify-content: space-between !important;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.c-box1{
+    text-align: start;
+}
+
+.c-text{
+    font-size: 13px;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display:block;
+}
+
+.btn-area{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 @media only screen and (max-width:1465px) {
@@ -273,6 +300,10 @@ textearea:focus, input:focus, select:focus {
 
 @media only screen and (max-width: 587px){
     .container-inv {
+        width: 95%;
+    }
+
+    .about-site-inv{
         width: 95%;
     }
 }

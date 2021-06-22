@@ -100,23 +100,73 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <!-- <img src="..." class="d-block w-100" alt="..."> -->
-                            <div class="carousel-caption d-none d-md-block">
-                                <div>
-                                    <h1>teste</h1>
+                            <div class="carousel-caption d-none d-md-block c-area row">
+                                <div class="c-box1 col-lg-6">
+                                    <div>
+                                        <h4>1. Lorem Ipsum is simply dummy</h4>
+                                    </div>
+
+                                    <div class="c-text">
+                                        Lorem Ipsum is simply dummy text of 
+                                        the printing and typesetting industry. 
+                                        Lorem Ipsum has been the industry's 
+                                        standard dummy text ever since the 1500s, 
+                                        when an unknown printer took a galley of 
+                                        type and scrambled it to make a type specimen book.
+                                    </div>
+
+                                    <div class="btn-area">
+                                        <button class="btn btn-success mt-3 btnzin">Acessar</button>
+                                    </div>
+                                </div>
+
+                                <div class="c-box2 col-lg-6">
+                                    <img src="<?=$_ENV['BASE_URL'].'app/assets/imgs/c-img-1.png'?>" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <!-- <img src="..." class="d-block w-100" alt="..."> -->
-                            <div class="carousel-caption d-none d-md-block">
-                                <h1>teste2</h1>
+                            <div class="carousel-caption d-none d-md-block c-area row">
+                                <div class="c-box1 col-lg-6">
+                                    <div>
+                                        <h4>1. Lorem Ipsum is simply dummy</h4>
+                                    </div>
+
+                                    <div class="c-text">
+                                        Lorem Ipsum is simply dummy text of 
+                                        the printing and typesetting industry. 
+                                        Lorem Ipsum has been the industry's 
+                                        standard dummy text ever since the 1500s, 
+                                        when an unknown printer took a galley of 
+                                        type and scrambled it to make a type specimen book.
+                                    </div>
+                                </div>
+
+                                <div class="c-box2 col-lg-6">
+                                    <img src="<?=$_ENV['BASE_URL'].'app/assets/imgs/c-img-1.png'?>" alt="" class="img-fluid">
+                                </div>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <!-- <img src="..." class="d-block w-100" alt="..."> -->
-                            <div class="carousel-caption d-none d-md-block">
-                                <h1>teste3</h1>
+                            <div class="carousel-caption d-none d-md-block c-area row">
+                                <div class="c-box1 col-lg-6">
+                                    <div>
+                                        <h4>1. Lorem Ipsum is simply dummy</h4>
+                                    </div>
+
+                                    <div class="c-text">
+                                        Lorem Ipsum is simply dummy text of 
+                                        the printing and typesetting industry. 
+                                        Lorem Ipsum has been the industry's 
+                                        standard dummy text ever since the 1500s, 
+                                        when an unknown printer took a galley of 
+                                        type and scrambled it to make a type specimen book.
+                                    </div>
+                                </div>
+
+                                <div class="c-box2 col-lg-6">
+                                    <img src="<?=$_ENV['BASE_URL'].'app/assets/imgs/c-img-1.png'?>" alt="" class="img-fluid">
+                                </div>
                             </div>
                         </div>
                     </div>
