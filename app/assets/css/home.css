@@ -19,11 +19,22 @@ textearea:focus, input:focus, select:focus {
     padding: 20px 0px;
 }
 
+#about-size{
+    width: 100%;
+    background-color: #F7FAFF;
+}
+
 .container-inv {
     width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-between;
+}
+
+.about-site-inv{
+    width: 80%;
+    margin: auto;
+    /* display: flex; */
 }
 
 #box-1-subheader {
@@ -148,6 +159,41 @@ textearea:focus, input:focus, select:focus {
 
 .bb-area {
     width: 45%;
+}
+
+#title-about-area > h4{
+    text-align: center;
+    color: #31343B;
+    margin: 20px 0px;
+}
+
+#title-about-area > h4 > span{
+    color: #F2687A;
+}
+
+.carousel-control-prev-icon{
+    background-image: url(../imgs/arrow-left.png);
+}
+
+.carousel-control-next-icon{
+    background-image: url(../imgs/arrow-right.png);
+}
+
+.carousel-indicators > button{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100%;
+    background-color: #d15666 !important;
+}
+
+.carousel-inner{
+    display: flex;
+}
+
+.carousel-item{
+    /* width: 80%; */
+    height: 400px;
+    /* margin: auto; */
 }
 
 @media only screen and (max-width:1465px) {
