@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Document</title>
+    <title><?=$title?></title>
     <link rel="stylesheet" href="<?=$_ENV['BASE_URL']?>app/assets/css/template.css">
     <link rel="stylesheet" href="<?=$_ENV['BASE_URL']?>app/assets/css/<?=$css?>">
     <script src="<?=$_ENV['BASE_URL']?>app/assets/js/jquery.js"></script>
@@ -13,6 +13,7 @@
     <link href="<?=$_ENV['BASE_URL']?>/app/assets/css/homolog-header.css" rel="stylesheet">
     <script src="<?=$_ENV['BASE_URL']?>app/assets/libraries/bootstrap.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="<?=$_ENV['BASE_URL']?>app/assets/imgs/logo-mini.png" type="image/png" sizes="16x16">
 </head>
 <body>
     <header id="header_inv">
@@ -20,7 +21,10 @@
         <div id="box-header">
 
             <div id="logo-area" onclick="window.location.href = '  <?= $_ENV['BASE_URL'] ?> ' ">
-                QUERO EMPREGO
+                <div id="img-logo">
+                    <img src="<?=$_ENV['BASE_URL']?>app/assets/imgs/logo-pink.png" alt="">
+                </div>
+                <div id="txt-logo">Quero <span>Emprego</span></div>
             </div>
 
             <div id="buttons-area">
