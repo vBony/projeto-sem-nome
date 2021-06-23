@@ -182,5 +182,107 @@
             </div>
         </div>
     </div>
+    <div id="mais-procuradas">
+
+        <div id="mais-procuradas-inv">
+            <h4 class="title-categorias">Categorias mais procuradas</h4>
+            <div id="mp-boxes-area">
+
+                <div class="mp-box">
+
+                    <div class="mp-box-area">       
+
+                        <div class="mpb-icon">
+    
+                            <i class="fas fa-code"></i>
+    
+                        </div>
+    
+                        <div class="mpb-title">Tec. informática</div>
+    
+                        <div class="mpb-vagas-area">
+    
+                            <div class="mpb-num-vagas">5k</div>
+                            <div class="mpb-vagas">vagas</div>
+                 
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="mp-box">
+
+                    <div class="mp-box-area">
+
+                        <div class="mpb-icon">
+
+                            <i class="fas fa-briefcase"></i>
+
+                        </div>
+
+                        <div class="mpb-title">Administrativo</div>
+
+                        <div class="mpb-vagas-area">
+
+                            <div class="mpb-num-vagas">800</div>
+                            <div class="mpb-vagas">vagas</div>
+                
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="mp-box">
+
+                    <div class="mp-box-area">
+
+                        <div class="mpb-icon">
+
+                            <i class="fas fa-shield-alt"></i>
+
+                        </div>
+
+                        <div class="mpb-title">Segurança</div>
+
+                        <div class="mpb-vagas-area">
+
+                            <div class="mpb-num-vagas">1k</div>
+                            <div class="mpb-vagas">vagas</div>
+                
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="mp-box">
+
+                    <div class="mp-box-area">
+
+                        <div class="mpb-icon">
+
+                            <i class="fas fa-phone-volume"></i>
+
+                        </div>
+
+                        <div class="mpb-title">Call-Center</div>
+
+                        <div class="mpb-vagas-area">
+
+                            <div class="mpb-num-vagas">100</div>
+                            <div class="mpb-vagas">vagas</div>
+                
+                        </div>
+
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </div>
+
+    </div>
 </body>
 </html>
