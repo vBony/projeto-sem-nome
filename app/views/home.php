@@ -284,5 +284,47 @@
         </div>
 
     </div>
+    <div id="sub-footer">
+       <div id="sub-footer-inv">
+
+           <div class="sf-box">
+                <div class="sfb-title">Candidatos</div>
+                <footer class="sfb-list">
+                    <ul>
+                        <li>Ajuda</li>
+                        <li>Criar currículo</li>
+                        <li>Vagas para Aux. Administrativo</li>
+                        <li>Vagas para Programador</li>
+                        <li>Vagas para Vigilante</li>
+                        <li>Vagas para At. de Telemarketing</li>
+                    </ul>
+                </footer>
+           </div>
+
+           <div class="sf-box">
+                <div class="sfb-title">Empresas</div>
+                <footer class="sfb-list">
+                    <ul>
+                        <li>Ajuda</li>
+                        <li>Anunciar vagas</li>
+                        <li>Busque candidatos</li>
+                        <li>SmartMatching</li>
+                    </ul>
+                </footer>
+            </div>
+
+            <div class="sf-box">
+                <div class="sfb-title">Institucional</div>
+                <footer class="sfb-list">
+                    <ul>
+                        <li>Quem somos?</li>
+                        <li>Perguntas frequentes</li>
+                        <li>Contato</li>
+                        <li>Política de privacidade</li>
+                    </ul>
+                </footer>
+            </div>
+       </div>
+    </div>
 </body>
 </html>
