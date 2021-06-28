@@ -51,9 +51,35 @@
 
     <?php $this->loadViewInTemplate($viewName, $viewData)?>
 
-    <footer id="footer_bg">
-        <hr>
-        <p>rodape do site</p>
+    <footer id="footer">
+        <div id="footer-inv">
+            <div id="fi-box-logo" class=fi-box>
+                <div id="logo"><img src="<?= $_ENV["BASE_URL"] . "app/assets/imgs/logo-footer.png" ?>"></div>
+                <div id="copyright">Quero emprego, inc. © 2021</div>
+            </div>
+
+            <div id="fi-box-termos" class=fi-box>
+                <ul>
+                    <li>Termos de Serviço</li>
+                    <li class="fib-point">•</li>
+                    <li>Política de Uso</li>
+                    <li class="fib-point">•</li>
+                    <li>Política de Privacidade</li>
+                </ul>
+            </div>
+            <div class=fi-box>
+                <div id="redes-sociais">
+                    <ul>
+                        <li><i class="fab fa-facebook-square"></i></li>
+                        <li><i class="fab fa-instagram"></i></li>
+                        <li><i class="fab fa-twitter-square"></i></li>
+                    </ul>
+                    
+                    
+
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
