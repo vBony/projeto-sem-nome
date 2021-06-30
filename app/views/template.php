@@ -81,5 +81,8 @@
             </div>
         </div>
     </footer>
+
+    <input type="hidden" id="base_url" value="<?= $_ENV['BASE_URL'] ?>">
+
 </body>
 </html>
