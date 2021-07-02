@@ -18,7 +18,7 @@ class userController extends controllerHelper{
     public function login(){
         $data = array();
 
-        $this->loadTemplate('user-login', $data);
+        $this->loadView('user-login', $data);
     }
 
     public function first_access(){

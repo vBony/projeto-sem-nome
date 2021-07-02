@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?=$_ENV['BASE_URL'] . 'app/assets/css/' . $css ?>">
-    <title>Quero emprego</title>
 </head>
 <body>
     <div id="container"> 
@@ -32,7 +31,7 @@
                             <i class="fas fa-map-marker-alt"></i>
                         </span>
 
-                        <select name="estado" id="select-estado">
+                        <select name="estado" class="form-select" id="select-estado">
 
                             <option value="">Todo o Brasil</option>
                             <option value="df">Distrito Federal</option>
@@ -58,7 +57,7 @@
                 </div>
 
                 <div id="text-area-b2">
-                    Não perca tempo, envie seu currículo e candita-se gratuitamente! <br> 
+                    Não perca tempo, envie seu currículo e candita-se gratuitamente!<br>
                     Caso não possua um ainda, crie em nossa plataforma interativa de forma rápida e sem pagar nada.
                 </div>
 
@@ -84,6 +83,248 @@
             
         </div>
 
+    </div>
+
+    <div id="about-site">
+        <div class="about-site-inv">
+            <div id="title-about-area">
+                <h4>Conheça a <span>Quero Emprego</span></h4>
+            </div>
+
+            <div id="carroussel-about-area">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="carousel-caption d-none d-md-block c-area row">
+                                <div class="c-box1 col-lg-6">
+                                    <div>
+                                        <h4>1. Lorem Ipsum is simply dummy</h4>
+                                    </div>
+
+                                    <div class="c-text">
+                                        Lorem Ipsum is simply dummy text of 
+                                        the printing and typesetting industry. 
+                                        Lorem Ipsum has been the industry's 
+                                        standard dummy text ever since the 1500s, 
+                                        when an unknown printer took a galley of 
+                                        type and scrambled it to make a type specimen book.
+                                    </div>
+
+                                    <div class="btn-area">
+                                        <button class="btn btn-success mt-3 btnzin">Acessar</button>
+                                    </div>
+                                </div>
+
+                                <div class="c-box2 col-lg-6">
+                                    <img src="<?=$_ENV['BASE_URL'].'app/assets/imgs/c-img-1.png'?>" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-caption d-none d-md-block c-area row">
+                                <div class="c-box1 col-lg-6">
+                                    <div>
+                                        <h4>1. Lorem Ipsum is simply dummy</h4>
+                                    </div>
+
+                                    <div class="c-text">
+                                        Lorem Ipsum is simply dummy text of 
+                                        the printing and typesetting industry. 
+                                        Lorem Ipsum has been the industry's 
+                                        standard dummy text ever since the 1500s, 
+                                        when an unknown printer took a galley of 
+                                        type and scrambled it to make a type specimen book.
+                                    </div>
+                                </div>
+
+                                <div class="c-box2 col-lg-6">
+                                    <img src="<?=$_ENV['BASE_URL'].'app/assets/imgs/c-img-1.png'?>" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-caption d-none d-md-block c-area row">
+                                <div class="c-box1 col-lg-6">
+                                    <div>
+                                        <h4>1. Lorem Ipsum is simply dummy</h4>
+                                    </div>
+
+                                    <div class="c-text">
+                                        Lorem Ipsum is simply dummy text of 
+                                        the printing and typesetting industry. 
+                                        Lorem Ipsum has been the industry's 
+                                        standard dummy text ever since the 1500s, 
+                                        when an unknown printer took a galley of 
+                                        type and scrambled it to make a type specimen book.
+                                    </div>
+                                </div>
+
+                                <div class="c-box2 col-lg-6">
+                                    <img src="<?=$_ENV['BASE_URL'].'app/assets/imgs/c-img-1.png'?>" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="mais-procuradas">
+
+        <div id="mais-procuradas-inv">
+            <h4 class="title-categorias">Categorias mais procuradas</h4>
+            <div id="mp-boxes-area">
+
+                <div class="mp-box">
+
+                    <div class="mp-box-area">       
+
+                        <div class="mpb-icon">
+    
+                            <i class="fas fa-code"></i>
+    
+                        </div>
+    
+                        <div class="mpb-title">Tec. informática</div>
+    
+                        <div class="mpb-vagas-area">
+    
+                            <div class="mpb-num-vagas">5k</div>
+                            <div class="mpb-vagas">vagas</div>
+                 
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="mp-box">
+
+                    <div class="mp-box-area">
+
+                        <div class="mpb-icon">
+
+                            <i class="fas fa-briefcase"></i>
+
+                        </div>
+
+                        <div class="mpb-title">Administrativo</div>
+
+                        <div class="mpb-vagas-area">
+
+                            <div class="mpb-num-vagas">800</div>
+                            <div class="mpb-vagas">vagas</div>
+                
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="mp-box">
+
+                    <div class="mp-box-area">
+
+                        <div class="mpb-icon">
+
+                            <i class="fas fa-shield-alt"></i>
+
+                        </div>
+
+                        <div class="mpb-title">Segurança</div>
+
+                        <div class="mpb-vagas-area">
+
+                            <div class="mpb-num-vagas">1k</div>
+                            <div class="mpb-vagas">vagas</div>
+                
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="mp-box">
+
+                    <div class="mp-box-area">
+
+                        <div class="mpb-icon">
+
+                            <i class="fas fa-phone-volume"></i>
+
+                        </div>
+
+                        <div class="mpb-title">Call-Center</div>
+
+                        <div class="mpb-vagas-area">
+
+                            <div class="mpb-num-vagas">100</div>
+                            <div class="mpb-vagas">vagas</div>
+                
+                        </div>
+
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <div id="sub-footer">
+       <div id="sub-footer-inv">
+
+           <div class="sf-box">
+                <div class="sfb-title">Candidatos</div>
+                <footer class="sfb-list">
+                    <ul>
+                        <li>Ajuda</li>
+                        <li>Criar currículo</li>
+                        <li>Vagas para Aux. Administrativo</li>
+                        <li>Vagas para Programador</li>
+                        <li>Vagas para Vigilante</li>
+                        <li>Vagas para At. de Telemarketing</li>
+                    </ul>
+                </footer>
+           </div>
+
+           <div class="sf-box">
+                <div class="sfb-title">Empresas</div>
+                <footer class="sfb-list">
+                    <ul>
+                        <li>Ajuda</li>
+                        <li>Anunciar vagas</li>
+                        <li>Busque candidatos</li>
+                        <li>SmartMatching</li>
+                    </ul>
+                </footer>
+            </div>
+
+            <div class="sf-box">
+                <div class="sfb-title">Institucional</div>
+                <footer class="sfb-list">
+                    <ul>
+                        <li>Quem somos?</li>
+                        <li>Perguntas frequentes</li>
+                        <li>Contato</li>
+                        <li>Política de privacidade</li>
+                    </ul>
+                </footer>
+            </div>
+       </div>
     </div>
 </body>
 </html>
