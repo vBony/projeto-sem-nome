@@ -45,6 +45,8 @@ class controllerHelper{
                 if(strtotime($now) > strtotime($valido_ate)){
                     $RelatorioAcessos->incluir($ip);
                 }
+            }else{
+                $RelatorioAcessos->incluir($ip);
             }
             
         }
