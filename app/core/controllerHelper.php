@@ -31,7 +31,7 @@ class controllerHelper{
      * Adiciona o IP do usuário no relatorio de acessos
      */
     public function incluirIpRelatorio(){
-        if($_ENV['ENVIROMENT'] != 'homolog'){
+        if($_ENV['ENVIROMENT'] == 'homolog'){
             $RelatorioAcessos = new RelatorioAcessos();
             $ip = $_SERVER["REMOTE_ADDR"];
 
